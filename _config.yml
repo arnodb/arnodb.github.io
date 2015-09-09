@@ -1,0 +1,11 @@
+# Site settings
+title: Arno.db
+email:
+description:
+  Tech explorer, computer scientist, Balzac lover.
+url: "http://arnodb.github.io"
+twitter_username: arnodb1
+github_username:  arnodb
+
+# Build settings
+markdown: kramdown
