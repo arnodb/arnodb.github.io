@@ -18,7 +18,7 @@ quality of their object-oriented code and I believe them.
 Entering the Scala world
 ------------------------
 
-Well, this is the simplest thing to so, scala has a website dedicated to itself:
+Well, this is the simplest thing to do, scala has a website dedicated to itself:
 [The Scala Programming Language](http://www.scala-lang.org/) (http://www.scala-lang.org/). It
 provides a huge amount of links to various documentation.
 
