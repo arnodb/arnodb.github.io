@@ -4,3 +4,44 @@
     display: block;
 }
 
+.github-status {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    padding: 10px;
+
+    .github-status-line > *{
+        vertical-align: bottom;
+        margin-left: 10px;
+    }
+
+    .github-branch {
+        color: #666;
+        min-width: 220px;
+        max-width: 220px;
+        max-height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+
+        .github-branch-name {
+            font-weight: bold;
+        }
+
+        @include media-query($on-palm) {
+            display: block;
+        }
+    }
+
+    .travis-badge {
+        min-width: 130px;
+        display: inline-block;
+    }
+
+    .coveralls-badge {
+        min-width: 130px;
+        display: inline-block;
+    }
+}
+

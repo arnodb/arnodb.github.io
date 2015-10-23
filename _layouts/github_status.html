@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {% for data_key in page.github_data %}
+    <div class="github-status">
+      {% for repo in site.data[data_key] %}
+      <div class="github-repo"><a href="https://github.com/{{ repo.full_name }}">{{ repo.full_name }}</a></div>
+        {% for branch in repo.branches %}
+      <div class="github-status-line">
+        <span class="github-branch">Branch: <span class="github-branch-name">{{ branch.name }}</span></span>
+        <span class="travis-badge"><a href="https://travis-ci.org/{{ repo.owner.login | url_param_escape }}/{{ repo.name | url_param_escape }}"><img alt="Build Status" src="https://travis-ci.org/{{ repo.owner.login | url_param_escape }}/{{ repo.name | url_param_escape }}.svg?branch={{ branch.name | url_param_escape }}" /></a></span>
+        <span class="coveralls-badge"><a href="https://coveralls.io/github/{{ repo.owner.login | url_param_escape }}/{{ repo.name | url_param_escape }}?branch={{ branch.name | url_param_escape }}"><img alt="Coverage Status" src="https://coveralls.io/repos/{{ repo.owner.login | url_param_escape }}/{{ repo.name | url_param_escape }}/badge.svg?branch={{ branch.name | url_param_escape }}&service=github" /></a></span>
+      </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+    {{ content }}
+  </div>
+
+</article>

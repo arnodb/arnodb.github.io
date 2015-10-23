@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+nav_order: 100
 ---
 
 Hello, my name is Arnaud de Bossoreille and I like technology especially when it works and when it

@@ -1,0 +1,24 @@
+- owner:
+    login: idmgroup
+  name: android-sdk-fat32lib
+  full_name: idmgroup/android-sdk-fat32lib
+  branches:
+    - name: master
+- owner:
+    login: idmgroup
+  name: dspace-rest-client
+  full_name: idmgroup/dspace-rest-client
+  branches:
+    - name: master
+- owner:
+    login: idmgroup
+  name: DSpace-REST-Client-Perl
+  full_name: idmgroup/DSpace-REST-Client-Perl
+  branches:
+    - name: master
+- owner:
+    login: idmgroup
+  name: sympa-data-extract
+  full_name: idmgroup/sympa-data-extract
+  branches:
+    - name: master
