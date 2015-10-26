@@ -1,0 +1,67 @@
+.wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.resume-right-block {
+    float: right;
+    text-align: right;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.resume-subtitle {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #666666;
+}
+
+h2 {
+    margin: 0;
+    color: #1756a9;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right: 1%;
+    width: 16%;
+    height: 10px;
+    background-color: #80B9FF;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 17%
+}
+
+dl {
+    margin-bottom: 0px;
+}
+
+dt {
+    float: left;
+    clear: left;
+}
+
+dd {
+    margin-left: 17%;
+
+    ul {
+        margin-bottom: 5px;
+    }
+}
