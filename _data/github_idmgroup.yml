@@ -1,11 +1,5 @@
 - owner:
     login: idmgroup
-  name: android-sdk-fat32lib
-  full_name: idmgroup/android-sdk-fat32lib
-  branches:
-    - name: master
-- owner:
-    login: idmgroup
   name: dspace-rest-client
   full_name: idmgroup/dspace-rest-client
   branches:
@@ -18,7 +12,7 @@
     - name: master
 - owner:
     login: idmgroup
-  name: sympa-data-extract
-  full_name: idmgroup/sympa-data-extract
+  name: oaiharvester2
+  full_name: idmgroup/oaiharvester2
   branches:
-    - name: master
+    - name: master-idmgroup
