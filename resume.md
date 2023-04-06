@@ -6,8 +6,8 @@ permalink: /resume/
 
 <mailto:arnaud.debossoreille@gmail.com>\\
 +33 6 11 07 37 18\\
-24 boulevard de la libération - 94300 Vincennes - France\\
-International mobility
+78 Avenue de la République - 94300 Vincennes - France\\
+<https://github.com/arnodb>
 {: .resume-right-block }
 
 **Arnaud de Bossoreille**
@@ -19,7 +19,14 @@ Senior software developer
 Professional Experience
 -----------------------
 
-**2002 - 2015**
+**2016 - 2023**
+:   **Impero A/S**, full remote, Vincennes, France, Aarhus and Copenhagen, Denmark
+    * Development of the compliance SaaS Impero <https://impero.com/>
+    * 2016-2018: **initially a C# and Javascript codebase**, started using ReactJS, Typescript and Webpack (2 developers)
+    * 2018: consideration of porting to Rust, prototype (2 developers)
+    * **2018-2023**: **big shift to Rust**, fast development team and company growth (4 developers, and then ~10), work in progress (mix Rust and C#)
+
+2002 - 2015
 :   **IDM - Ingénierie Diffusion Multimedia**, Champs-sur-Marne, France, Research & Development
 
 2010 - 2015
@@ -28,7 +35,7 @@ Professional Experience
     * intensive use of English with customers in the United Kingdom
     * Full rewrite of the workflow system for _Oxford University Press_ (JavaEE, Spring, Hibernate, jBPM, ExtJS)
     * Maintenance of _Oxford English Dictionary_ production system (JavaEE, Oracle, PL/SQL)
-    * **Merge of _Oxford English Dictionary_ production system into _DPS_** (3 years of work including a comprehensive feasibility study, budget > £250,000)
+    * **Merge of _Oxford English Dictionary_ production system into _DPS_** (3 years of work including a comprehensive feasibility study)
     * **Online search engine** mixing database and XML criteria (JavaEE, REST, Oracle, PostgreSQL)
 
 2010
@@ -63,10 +70,13 @@ Computer Experience
 -------------------
 
 **Programming**
-:   Seasoned Java and C++ developer, familiar with scripting languages like Shell, Perl, Node.js... I am learning Scala to discover functional programming
+:   **Seasoned Rust developer**, good skills in Java, C#, ReactJS, ancient knowledge of C++, familiar with scripting languages like Shell, Perl, Node.js...
 
 **Open Source**
-:   Linux user and administrator since 1998, former VideoLAN (<http://www.videolan.org/>) coder (1999 - 2002), GitHub account: <https://github.com/arnodb> (contributions to various repositories, Travis CI, Coveralls)
+:   (**Rust**) Ported _Torus Trooper_ from D to Rust (<https://github.com/arnodb/torus_trooper_rs>, <https://github.com/arnodb/bulletml_rs>), best way to learn Rust
+:   (**Rust**) Worked on a proof of rewrite concept of _SkProd_ to Rust (a very tiny bit of it, <https://github.com/arnodb/datapet>, <https://github.com/arnodb/truc>)
+:   Linux user since 1998, former VideoLAN (<http://www.videolan.org/>) coder (1999 - 2002)
+:   GitHub account: <https://github.com/arnodb> (contributions to various repositories)
 
 
 Education
@@ -94,8 +104,9 @@ Activities and Interests
 ------------------------
 
 **Hobbies**
-:   Watching rugby, literature (Balzac lover), eager to visit foreign countries
+:   Watching rugby, literature, theater
+:   Eager to visit foreign countries
 
 **Sport**
-:   Hiking amateur
+:   Hiking
 
