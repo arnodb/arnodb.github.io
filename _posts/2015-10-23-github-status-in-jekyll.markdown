@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GitHub status in Jekyll
+published: false
 ---
 
 GitHub continuous integration status of multiple repositories in a single Jekyll page.

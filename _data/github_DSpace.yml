@@ -1,7 +1,0 @@
-- owner:
-    login: DSpace
-  name: DSpace
-  full_name: DSpace/DSpace
-  branches:
-    - name: master
-    - name: dspace-5_x
