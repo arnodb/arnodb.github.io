@@ -86,28 +86,20 @@ Education
 ---------
 
 **1998 - 2002**
-: **École Centrale de Paris**, Châtenay-Malabry, France
-
-    * Engineering degree, specialization: Advanced systems, computer science
-    * software development, network administration
+: **École Centrale de Paris**, engineering degree, specialization: Advanced systems, computer science
 
 **1996**
-:   **French scientific Baccalauréat** (Electrical engineering), Lycée Technique Passy Buzenval, Rueil Malmaison, France
+:   **French scientific Baccalauréat** (Electrical engineering), Lycée Technique Passy Buzenval
 
 Languages
 ---------
 
-**French**
-:   Native language
-
-**English**
-:   Fluent speaker and writer
+&nbsp;
+:   **French** as native language, Fluent **English** speaker and writer.
 
 Activities and Interests
 ------------------------
 
 **Hobbies**
-: Literature, theater
-: Watching rugby
-: Hiking
+: Literature, theater -- Watching rugby -- Hiking
 
