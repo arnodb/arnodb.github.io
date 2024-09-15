@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arnaud de Bossoreille - Resume
-permalink: /resume
+permalink: /resume/
 ---
 
 * [Resume (English)](/resume/en)
