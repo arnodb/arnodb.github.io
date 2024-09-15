@@ -10,7 +10,7 @@ has a purpose!
 
 You may find here and on my GitHub account some of the work I want to share. Enjoy!
 
-Want to hire me? [My resume](/resume) may be of some interest to you.
+Want to hire me? [My resume in Engligh](/resume/en) may be of some interest to you. [Curriculum vitæ en français](/resume/fr).
 
 Want to have a break? A few suggestions (to my taste):
 
