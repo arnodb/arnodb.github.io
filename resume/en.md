@@ -1,7 +1,7 @@
 ---
 layout: resume
-title: Arnaud de Bossoreille - Resume
-permalink: /resume/
+title: Arnaud de Bossoreille - Resume - English
+permalink: /resume/en
 ---
 
 <mailto:arnaud.debossoreille@gmail.com>\\
@@ -35,7 +35,7 @@ Professional Experience
     * **intensive use of English** with customers in the United Kingdom
     * Full rewrite of the workflow system for _Oxford University Press_ (JavaEE, Spring, Hibernate, jBPM, ExtJS)
     * Maintenance of _Oxford English Dictionary_ production system (JavaEE, Oracle, PL/SQL)
-    * **Merge of _Oxford English Dictionary_ production system into _DPS_** (3 years of work including a comprehensive feasibility study)
+    * **Merge of _OED_ production system into _DPS_** (3 years of work including a comprehensive feasibility study)
     * **Online search engine** mixing database and XML criteria (JavaEE, REST, Oracle, PostgreSQL)
 
 2010
