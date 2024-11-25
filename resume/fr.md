@@ -76,7 +76,7 @@ Expérience informatique
 
 **Open Source**
 :   (**Rust**) Port de _Torus Trooper_ de D à Rust (GitHub [arnodb/torus_trooper_rs](https://github.com/arnodb/torus_trooper_rs), [arnodb/bulletml_rs](https://github.com/arnodb/bulletml_rs)), meilleure façon d'apprendre Rust.
-:   (**Rust**) Prototype de réécriture de _SkProd_ en Rust (une toute petite partie, GitHub [arnodb/datapet](https://github.com/arnodb/datapet), [arnodb/truc](https://github.com/arnodb/truc)).
+:   (**Rust**) Prototype de réécriture de _SkProd_ en Rust (une toute petite partie, GitHub [arnodb/quirky_binder](https://github.com/arnodb/quirky_binder), [arnodb/truc](https://github.com/arnodb/truc)).
 :   Utilisateur Linux depuis 1998, ancien de VideoLAN (<http://www.videolan.org/>) (1999 - 2002).
 :   Contributions à divers dépôts open source.
 

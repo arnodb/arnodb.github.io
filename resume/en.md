@@ -77,7 +77,7 @@ Computer Experience
 
 **Open Source**
 :   (**Rust**) Ported _Torus Trooper_ from D to Rust (GitHub [arnodb/torus_trooper_rs](https://github.com/arnodb/torus_trooper_rs), [arnodb/bulletml_rs](https://github.com/arnodb/bulletml_rs)), best way to learn Rust.
-:   (**Rust**) Worked on a rewritten prototype of _SkProd_ to Rust (a very tiny bit of it, GitHub [arnodb/datapet](https://github.com/arnodb/datapet), [arnodb/truc](https://github.com/arnodb/truc)).
+:   (**Rust**) Worked on a rewritten prototype of _SkProd_ to Rust (a very tiny bit of it, GitHub [arnodb/quirky_binder](https://github.com/arnodb/quirky_binder), [arnodb/truc](https://github.com/arnodb/truc)).
 :   Linux user since 1998, former VideoLAN (<http://www.videolan.org/>) coder (1999 - 2002).
 :   Contributions to various OSS repositories.
 
