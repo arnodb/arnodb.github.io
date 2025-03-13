@@ -6,7 +6,7 @@ permalink: /resume/fr
 
 <mailto:arnaud.debossoreille@gmail.com>\\
 +33 6 11 07 37 18\\
-78 Avenue de la République - 94300 Vincennes - France\\
+98 Rue Diderot - 94300 Vincennes - France\\
 <https://github.com/arnodb>
 {: .resume-right-block }
 
@@ -22,7 +22,7 @@ Compétences
 * Acquisition de connaissance fonctionnelle et d'expertise technique comme méthode de travail.
 * Documentation pour partager cette connaissance avec les autres membres de l'équipe.
 * Transformation d'un cahier des charges en architecture technique.
-* Pragmatisme: capacité de faire le tri entre le nécessaire, la préparation du futur, et le superflu.
+* Pragmatisme: capacité à faire le tri entre le nécessaire, la préparation du futur, et le superflu.
 * Coéquipier juste: toujours ouvert à la discussion, attaché à la qualité (du code et du produit).
 * Plaisir de la découverte et de l'apprentissage de nouvelles technologies.
 
@@ -30,40 +30,39 @@ Expérience professionnelle
 --------------------------
 
 **2016 - 2024**
-:   **Impero A/S**: à distance complet, Vincennes, France, rencontres régulières à Aarhus et Copenhague, Danemark.
-    * SaaS de conformité Impero <https://impero.com/> (**Rust**, **Typescript**, **ReactJS**, **PostgreSQL**, Azure cloud).
-    * 2016-2018: C#, Typescript, ReactJS, webpack, équipe de 2 développeurs.
-    * 2018: **Refonte de l'architecture**, prototype de fonctionnalités clés en Rust.
-    * **2018-2023**: Portage de C# à Rust, refonte de la base de données, croissance de l'équipe de développement.
+:   **Impero A/S**: à distance complet, Vincennes, France, rencontres régulières à Aarhus et Copenhague, Danemark. SaaS Impero <https://impero.com/> (**Rust**, **Typescript**, **ReactJS**, **PostgreSQL**, Azure cloud).
+
+&nbsp;&nbsp;2018-2025
+:   **Réécriture itérative du C# en Rust** - croissance de l'équipe de développement.
+
+    * Refonte de la base de données pour une sécurité accrue, migration de SQLServer à PostgreSQL.
+    * Refonte du module de gestion des risques, backend complètement réécrit en Rust.
+    * Refonte du module de contrôle, gestion des examinateurs multiples, et des tâches d'examinateur. Cela a nécessité **une grande refonte de la base de code et une forte expertise** du système.
+    * Réécriture du planificateur de contrôle en Rust (analyse de l'ancien, documentation, typage renforcé en Rust).
+
+&nbsp;&nbsp;2016-2028
+:   C#, migration itérative de **l'ancien JavaScript vers Typescript et ReactJS**, amélioration des capacités de planification, nouvelle interface de reporting, nouvelles fonctionnalités, prise en charge des websockets.
+
+<p />
 
 **2002 - 2015**
 :   **IDM - Ingénierie Diffusion Multimedia**: sur site, Champs-sur-Marne, France, Recherche & Développement.
 
-2010 - 2015
+&nbsp;&nbsp;2010 - 2015
 :   Gestion de projet, responsable technique _Dictionary Production System_ (6 développeurs).
 
-    * **Usage intensif de l'anglais** avec des clients au Royaume-Uni.
     * Réécriture du système de "workflow" pour _Oxford University Press_ (Java, Spring, Hibernate, jBPM).
-    * Maintenance du système de production de _Oxford English Dictionary_ (Java, Oracle, PL/SQL).
-    * **Fusion du système _OED_ dans _DPS_** (3 ans de travail incluant une étude complète de faisabilité).
+    * Maintenance du système de production de **Oxford English Dictionary** (Java, Oracle, PL/SQL).
+    * Mise à jour massive du système _OED_ vers une architecture Java (cahier des charges à fortes contraintes).
     * **Moteur de recherche** mélangeant critères de base de donnée et XML (Java, REST, Oracle, PostgreSQL).
 
-2009 - 2010
-:   **Réécriture du moteur de recherche _SkXml_ en Java** (responsable technique dans une équipe de 3).
+&nbsp;&nbsp;2009 - 2010
+:   Réécriture du moteur de recherche XML en Java (responsable technique dans une équipe de 3) avec un focus sur la montée en charge et l'indexation incrémentale (Lucene).
 
-    * Attention à la montée en charge, travail distribué (GridGain), et indexation incrémentale (Lucene).
-
-2007 - 2008
-:   Développement de divers systèmes principalement en Java et un peu en C# et C++.
-
-2006
-:   **Développement d'un moteur NoSQL** inspiré par PostgreSQL par dessus _SkFind_ (responsable technique, C++).
-
-2004 - 2005
-:   **Spécification et développement d'un moteur de recherche XML** nommé _SkXml_, interface web, ORM dédié avec langage de requête destiné aux lexicographes, et logiciel de traitement de données multi-thread nommé _SkProd_ (C++, Lex, Yacc, Java pour l'interface).
-
-2002 - 2003
-:   **Développement d'un moteur de recherche texte intégral** nommé _SkFind_ embarqué sur CDROM, et un logiciel de recherche dans un corpus utilisé pour produire un dictionnaire à Pearson Education (C++).
+&nbsp;&nbsp;2002 - 2009
+:   Développement d'un **moteur NoSQL** inspiré par PostgreSQL (responsable technique, C++).
+:   Spécification et développement d'un **moteur de recherche XML**, d'un ORM dédié avec langage de requête destiné aux lexicographes, et d'un logiciel de traitement de données multi-thread (C++, Lex, Yacc).
+:   Développement d'un **moteur de recherche texte intégral** embarqué sur CDROM (C++, Mozilla 1.0).
 
 Expérience informatique
 -----------------------
@@ -73,12 +72,13 @@ Expérience informatique
 
 **Infrastructure**
 : Terraform (Azure cloud), Ansible
+: CI/CD (GitHub Actions)
 
 **Open Source**
-:   (**Rust**) Port de _Torus Trooper_ de D à Rust (GitHub [arnodb/torus_trooper_rs](https://github.com/arnodb/torus_trooper_rs), [arnodb/bulletml_rs](https://github.com/arnodb/bulletml_rs)), meilleure façon d'apprendre Rust.
-:   (**Rust**) Prototype de réécriture de _SkProd_ en Rust (une toute petite partie, GitHub [arnodb/quirky_binder](https://github.com/arnodb/quirky_binder), [arnodb/truc](https://github.com/arnodb/truc)).
+:   Port de _Torus Trooper_ de D à Rust (GitHub [arnodb/torus_trooper_rs](https://github.com/arnodb/torus_trooper_rs), [arnodb/bulletml_rs](https://github.com/arnodb/bulletml_rs)).
+:   Prototype de réécriture d'un logiciel de traitement de données en Rust (GitHub [arnodb/quirky_binder](https://github.com/arnodb/quirky_binder), [arnodb/truc](https://github.com/arnodb/truc)).
 :   Utilisateur Linux depuis 1998, ancien de VideoLAN (<http://www.videolan.org/>) (1999 - 2002).
-:   Contributions à divers dépôts open source.
+:   Contributions à divers dépôts open source (e.g. GitHub [azure/azure-sdk-for-rust](https://github.com/azure/azure-sdk-for-rust)).
 
 
 Formation
