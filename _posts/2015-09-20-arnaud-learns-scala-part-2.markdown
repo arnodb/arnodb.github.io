@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arnaud learns Scala - part 2
+published: false
 ---
 
 One of the basics of functional programming: tail recursion – or how to write an iterative code that

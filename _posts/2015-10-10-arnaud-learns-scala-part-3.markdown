@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arnaud learns Scala - part 3
+published: false
 ---
 
 A small heartbeat after a long quiet period... building scala projects with *Scala Build Tool*

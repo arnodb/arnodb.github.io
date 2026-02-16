@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arnaud learns Scala - part 1
+published: false
 ---
 
 After having been a C++ developer for years, I started coding in java. But that was 10 years ago

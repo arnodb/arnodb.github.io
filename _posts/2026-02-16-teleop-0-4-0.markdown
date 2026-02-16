@@ -1,0 +1,24 @@
+---
+layout: post
+title: Teleop 0.4.0 — Attach to and teleoperate local Rust processes via RPC
+---
+
+I just released [teleop 0.4.0](https://crates.io/crates/teleop/0.4.0), a crate I built from scratch to attach to running Rust processes and interact with them through RPC.
+
+It is inspired by Java's Attach API which powers the Java Console and other remote management tools.
+
+Teleop lets you connect to a local process by PID, establish a communication channel (a UNIX socket), and interact with it using Cap'n Proto RPC. The target process registers services (e.g. a state inspector), and clients can invoke them at runtime.
+
+Think of it as a lightweight way to add runtime introspection or remote control to your Rust applications. Without HTTP servers, without REST, just a local socket and efficient RPC.
+
+This version is the first not to be restricted to Unix systems: it also works on MacOS (with native kqueue file system access) and Windows. Each platform is provided with one or more options for attachment and communication, sensible defaults are also provided depending on OS and enabled features.
+
+* Crates.io: [https://crates.io/crates/teleop](https://crates.io/crates/teleop)
+* Docs: [https://docs.rs/teleop](https://docs.rs/teleop)
+* GitHub: [https://github.com/arnodb/teleop](https://github.com/arnodb/teleop)
+* Examples: [https://github.com/arnodb/teleop/blob/main/examples/server.rs](https://github.com/arnodb/teleop/blob/main/examples/server.rs) / [https://github.com/arnodb/teleop/blob/main/examples/client.rs](https://github.com/arnodb/teleop/blob/main/examples/client.rs)
+
+It is already used in [Quirky Binder](https://github.com/arnodb/quirky_binder) for inspecting data processing state at runtime, with [Quirky Binder Console](https://github.com/arnodb/quirky_binder_console) that renders live SVG visualizations.
+
+Happy to hear feedback, questions, or suggestions!
+
